@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="256"
+   height="256"
+   viewBox="0 0 256 256"
+   version="1.1"
+   id="svg5"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2" />
+  <g
+     id="layer1">
+    <path
+       style="fill:none;stroke:#bc7B77;stroke-width:40;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 32,128 128,32"
+       id="path846" />
+    <path
+       style="fill:none;stroke:#bc7B77;stroke-width:40;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 224,128 128,32"
+       id="path2048" />
+    <path
+       style="fill:none;stroke:#bc7B77;stroke-width:40;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 128,224 V 32"
+       id="path2263" />
+    <g
+       id="g2406">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:42;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect840"
+         width="256"
+         height="256"
+         x="1600"
+         y="352"
+         rx="0"
+         ry="0" />
+      <path
+         style="fill:none;stroke:#bc7B77;stroke-width:40;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 1632,480 96,96"
+         id="path846-3" />
+      <path
+         style="fill:none;stroke:#bc7B77;stroke-width:40;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 1824,480 -96,96"
+         id="path2048-6" />
+      <path
+         style="fill:none;stroke:#bc7B77;stroke-width:40;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 1728,384 V 576"
+         id="path2263-7" />
+    </g>
+  </g>
+</svg>

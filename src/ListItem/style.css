@@ -1,0 +1,101 @@
+.list-item {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  border-radius: 1rem;
+  padding: 0.5rem 0.5rem;
+  margin-bottom: 0.25rem;
+}
+
+.list-item__tick {
+  flex: 0 0 auto;
+  order: 1;
+  margin-right: 0.5rem;
+}
+
+.list-item__toolbar {
+  flex: 1;
+  order: 2;
+  display: none;
+  justify-content: flex-end;
+}
+
+.list-item--expanded > .list-item__toolbar {
+  display: flex;
+}
+
+.list-item__menu {
+  flex: 0 0 auto;
+  order: 4;
+  margin-left: 0.5rem;
+}
+
+.list-item__body {
+  flex: 1;
+  display: flex;
+  order: 3;
+  justify-content: space-between;
+}
+
+.list-item--expanded > .list-item__body {
+  display: none;
+}
+
+.list-item__detail {
+  flex: 1 0 100%;
+  display: none;
+  order: 5;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+}
+
+.list-item--expanded > .list-item__detail {
+  display: block;
+}
+
+.product-input {
+  width: 10rem;
+}
+
+.amount-input {
+  text-align: right;
+  width: 2.5rem;
+}
+
+.unit-input {
+  width: 4rem;
+}
+
+.icon-btn {
+  border: none;
+  width: 1rem;
+  height: 1rem;
+  margin: 0 4px;
+  background-color: transparent;
+  background-size: contain;
+  cursor: pointer;
+}
+
+.btn-tick {
+  background-image: url(img/tick-off.svg);
+}
+
+.btn-tick--on {
+  background-image: url(img/tick-on.svg);
+}
+
+.btn-menu {
+  background-image: url(img/dots.svg);
+}
+
+.btn-delete {
+  background-image: url(img/bin.svg);
+}
+
+.btn-up {
+  background-image: url(img/up.svg);
+}
+
+.btn-down {
+  background-image: url(img/down.svg);
+}

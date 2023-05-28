@@ -1,0 +1,20 @@
+.shoplist {
+  width: 20rem;
+  background-color: #dbc7c9;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.shoplist__head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.shoplist__day {
+  font-size: 1.5rem;
+  margin: 0 0.5rem 1rem 0.5rem;
+}
+
+.shoplist__new {
+  margin-bottom: 1rem;
+}
