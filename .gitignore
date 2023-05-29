@@ -1,6 +1,6 @@
 # Ignore the package-lock.json to prevent conflicts when collaborating
 
-package-lock.json
+# package-lock.json
 
 # Logs
 logs

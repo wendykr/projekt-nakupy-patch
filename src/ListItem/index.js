@@ -67,6 +67,7 @@ export const ListItem = (props) => {
 
   const handleMenu = () => {
     element.replaceWith(ListItem({
+      day,
       id: id,
       item: item,
       expanded: !expanded
@@ -82,10 +83,6 @@ export const ListItem = (props) => {
     const amountInput = element.querySelector('.amount-input');
     const unitInput = element.querySelector('.unit-input');
 
-    console.log(productInput.value);
-    console.log(amountInput.value);
-    console.log(unitInput.value);
-
     fetch(`https://nakupy.kodim.app/api/me/week/${day}/items/${id}`, {
       method: 'PATCH',
       headers: {
@@ -100,17 +97,12 @@ export const ListItem = (props) => {
     })
       .then((response) => response.json())
       .then((data) => {
-        console.log(data);
         element.replaceWith(
           ListItem(
             {
               day,
-              item: {
-                product: data.result.product,
-                amount: data.result.amount,
-                unit: data.result.unit,
-              },
-              expanded: !expanded
+              item: data.result,
+              expanded
             }
           )
         );
